@@ -58,16 +58,16 @@ namespace Gui
             }
         }
 
+        private void btn_minimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
         private void btn_cerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btn_minimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-      
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
             Iniciodesesion();

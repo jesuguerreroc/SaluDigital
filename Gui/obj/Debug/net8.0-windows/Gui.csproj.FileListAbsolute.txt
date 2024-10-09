@@ -86,3 +86,4 @@ C:\Users\jesug\source\repos\Gui\Gui\bin\Debug\net8.0-windows\ENTITY.pdb
 C:\Users\jesug\source\repos\Gui\Gui\bin\Debug\net8.0-windows\DAL.pdb
 C:\Users\jesug\source\repos\Gui\Gui\obj\Debug\net8.0-windows\Gui.csproj.AssemblyReference.cache
 C:\Users\jesug\source\repos\Gui\Gui\obj\Debug\net8.0-windows\Gui.csproj.Up2Date
+C:\Users\jesug\source\repos\Gui\Gui\obj\Debug\net8.0-windows\Gui.sourcelink.json
