@@ -1,0 +1,11 @@
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\BLL.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\BLL.pdb
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\DAL.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\ENTITY.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\DAL.pdb
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\bin\Debug\ENTITY.pdb
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,6 @@
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.pdb
