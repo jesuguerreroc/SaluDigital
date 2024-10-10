@@ -121,6 +121,7 @@
             btn_registrar_persona.TabIndex = 8;
             btn_registrar_persona.Text = "REGISTRAR";
             btn_registrar_persona.UseVisualStyleBackColor = false;
+            btn_registrar_persona.Click += btn_registrar_persona_Click;
             // 
             // textbox_registrar_apellidos
             // 
@@ -168,9 +169,9 @@
             label2.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(175, 135);
             label2.Name = "label2";
-            label2.Size = new Size(189, 17);
+            label2.Size = new Size(224, 17);
             label2.TabIndex = 12;
-            label2.Text = "PRIMER Y SEGUNDO NOMBRE";
+            label2.Text = "INGRESA SOLO EL PRIMER NOMBRE";
             // 
             // label3
             // 
@@ -179,9 +180,9 @@
             label3.Font = new Font("Century Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(488, 135);
             label3.Name = "label3";
-            label3.Size = new Size(195, 17);
+            label3.Size = new Size(230, 17);
             label3.TabIndex = 13;
-            label3.Text = "PRIMER Y SEGUNDO APELLIDO";
+            label3.Text = "INGRESA SOLO EL PRIMER APELLIDO";
             // 
             // label4
             // 

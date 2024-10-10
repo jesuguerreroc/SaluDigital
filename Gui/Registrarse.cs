@@ -101,5 +101,41 @@ namespace Gui
                 textbox_registrar_usuario.ForeColor = Color.DimGray;
             }
         }
+
+        private void btn_registrar_persona_Click(object sender, EventArgs e)
+        {
+            RegistrarPersona();
+        }
+
+        private void RegistrarPersona()
+        {
+            string nombres = textbox_registrar_nombres.Text;
+            string apellidos = textbox_registrar_apellidos.Text;
+            string usuario = textbox_registrar_usuario.Text;
+            string contrasena = textbox_registrar_contrasena.Text;
+
+            if (nombres == "NOMBRES" || apellidos == "APELLIDOS" ||
+                usuario == "USUARIO" || contrasena == "CONTRASEÑA")
+            {
+                MessageBox.Show("Por favor, complete todos los campos.");
+                return;
+            }
+
+            string datosUsuario = $"{nombres};{apellidos};{usuario};{contrasena}";
+            string rutaArchivo = @"C:\Users\jesug\source\repos\Gui\Gui\usuarios.txt";
+
+            try
+            {
+                System.IO.File.AppendAllText(rutaArchivo, datosUsuario + Environment.NewLine);
+                MessageBox.Show("Registro exitoso.");
+                this.Hide();
+                Login login = Login.GetInstance();
+                login.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al guardar los datos: {ex.Message}");
+            }
+        }
     }
 }

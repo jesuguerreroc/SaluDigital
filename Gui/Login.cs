@@ -76,24 +76,54 @@ namespace Gui
 
         private void Iniciodesesion()
         {
-            string usuario = textBox_usuario.Text;
-            string contraseña = textBox_contrasena.Text;
 
-            if (usuario == "ADMIN" && contraseña == "123")
+            string usuario = textBox_usuario.Text;
+            string contrasena = textBox_contrasena.Text;
+
+            if (usuario == "USUARIO" || contrasena == "CONTRASEÑA")
             {
-                Menu menu = new Menu();
-                menu.Show();
-                this.Hide();
+                MessageBox.Show("Por favor, llene todos los campos.");
+                return;
             }
-            else if (usuario == "jesu" && contraseña == "1234")
+
+
+            string rutaArchivo = @"C:\Users\jesug\source\repos\Gui\Gui\usuarios.txt";
+
+            try
             {
-                Menu menu = new Menu();
-                menu.Show();
-                this.Hide();
+                var lineas = System.IO.File.ReadAllLines(rutaArchivo);
+                bool usuarioValido = false;
+
+                foreach (var linea in lineas)
+                {
+                    var datos = linea.Split(';');
+                    if (datos.Length >= 4)
+                    {
+                        string usuarioArchivo = datos[2];
+                        string contrasenaArchivo = datos[3];
+
+                        if (usuarioArchivo == usuario && contrasenaArchivo == contrasena)
+                        {
+                            usuarioValido = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (usuarioValido)
+                {
+                    Menu menu = new Menu();
+                    menu.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos.");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Datos incorrectos. Por favor, intente de nuevo.");
+                MessageBox.Show($"Error al leer los datos: {ex.Message}");
             }
         }
 
