@@ -8,14 +8,17 @@ namespace Entidades
 {
     public class Usuario
     {
-        private string _IdRol;
-        private int _IdUsuario;
-        private string _NombreUsuario;
-        private string _Contrasenia;
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Contrasena { get; set; }
 
-        public string IdRol { get => _IdRol; set => _IdRol = value; }
-        public int IdUsuario { get => _IdUsuario; set => _IdUsuario = value; }
-        public string NombreUsuario { get => _NombreUsuario; set => _NombreUsuario = value; }
-        public string Contrasenia { get => _Contrasenia; set => _Contrasenia = value; }
+        public Usuario(string nombres, string apellidos, string usuario, string contrasena)
+        {
+            Nombres = nombres;
+            Apellidos = apellidos;
+            NombreUsuario = usuario;
+            Contrasena = contrasena;
+        }
     }
 }

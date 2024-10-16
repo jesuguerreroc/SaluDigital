@@ -10,3 +10,9 @@ C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference
 C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\jesug\source\repos\SaluDigital\ENTITY\obj\Debug\ENTITY.pdb

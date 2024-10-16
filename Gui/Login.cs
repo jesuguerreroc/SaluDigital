@@ -1,9 +1,17 @@
+
+using System;
+using System.Drawing;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
+using BLL;
+using ENTITY;
 
 namespace Gui
 {
     public partial class Login : Form
     {
+        private UsuarioBLL usuarioBLL = new UsuarioBLL();
+
         public Login()
         {
             InitializeComponent();
@@ -80,50 +88,17 @@ namespace Gui
             string usuario = textBox_usuario.Text;
             string contrasena = textBox_contrasena.Text;
 
-            if (usuario == "USUARIO" || contrasena == "CONTRASEÑA")
+            bool loginExitoso = usuarioBLL.IniciarSesion(usuario, contrasena);
+
+            if (loginExitoso)
             {
-                MessageBox.Show("Por favor, llene todos los campos.");
-                return;
+                Menu menu = new Menu();
+                menu.Show();
+                this.Hide();
             }
-
-
-            string rutaArchivo = @"C:\Users\jesug\source\repos\Gui\Gui\usuarios.txt";
-
-            try
+            else
             {
-                var lineas = System.IO.File.ReadAllLines(rutaArchivo);
-                bool usuarioValido = false;
-
-                foreach (var linea in lineas)
-                {
-                    var datos = linea.Split(';');
-                    if (datos.Length >= 4)
-                    {
-                        string usuarioArchivo = datos[2];
-                        string contrasenaArchivo = datos[3];
-
-                        if (usuarioArchivo == usuario && contrasenaArchivo == contrasena)
-                        {
-                            usuarioValido = true;
-                            break;
-                        }
-                    }
-                }
-
-                if (usuarioValido)
-                {
-                    Menu menu = new Menu();
-                    menu.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Usuario o contraseña incorrectos.");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al leer los datos: {ex.Message}");
+                MessageBox.Show("Usuario o contraseña incorrectos.");
             }
         }
 

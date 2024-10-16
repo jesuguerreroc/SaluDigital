@@ -7,11 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+using BLL;
+using ENTITY;
+using Entidades;
+
 
 namespace Gui
 {
     public partial class Registrarse : Form
     {
+        private UsuarioBLL usuarioBLL = new UsuarioBLL();
+
         public Registrarse()
         {
             InitializeComponent();
@@ -114,27 +123,14 @@ namespace Gui
             string usuario = textbox_registrar_usuario.Text;
             string contrasena = textbox_registrar_contrasena.Text;
 
-            if (nombres == "NOMBRES" || apellidos == "APELLIDOS" ||
-                usuario == "USUARIO" || contrasena == "CONTRASEÑA")
-            {
-                MessageBox.Show("Por favor, complete todos los campos.");
-                return;
-            }
+            string resultado = usuarioBLL.RegistrarUsuario(nombres, apellidos, usuario, contrasena);
 
-            string datosUsuario = $"{nombres};{apellidos};{usuario};{contrasena}";
-            string rutaArchivo = @"C:\Users\jesug\source\repos\Gui\Gui\usuarios.txt";
+            MessageBox.Show(resultado);
 
-            try
+            if (resultado == "Registro exitoso.")
             {
-                System.IO.File.AppendAllText(rutaArchivo, datosUsuario + Environment.NewLine);
-                MessageBox.Show("Registro exitoso.");
                 this.Hide();
-                Login login = Login.GetInstance();
-                login.Show();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al guardar los datos: {ex.Message}");
+                Login.GetInstance().Show();
             }
         }
     }

@@ -67,11 +67,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesug\\source\\repos\\Gui\\Gui\\Gui.csproj",
+      "projectUniqueName": "C:\\Users\\jesug\\source\\repos\\SaluDigital\\Gui\\Gui.csproj",
       "projectName": "Gui",
-      "projectPath": "C:\\Users\\jesug\\source\\repos\\Gui\\Gui\\Gui.csproj",
+      "projectPath": "C:\\Users\\jesug\\source\\repos\\SaluDigital\\Gui\\Gui.csproj",
       "packagesPath": "C:\\Users\\jesug\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesug\\source\\repos\\Gui\\Gui\\obj\\",
+      "outputPath": "C:\\Users\\jesug\\source\\repos\\SaluDigital\\Gui\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesug\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +89,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\jesug\\source\\repos\\Gui\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\jesug\\source\\repos\\Gui\\BLL\\BLL.csproj"
+            "C:\\Users\\jesug\\source\\repos\\SaluDigital\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\jesug\\source\\repos\\SaluDigital\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\jesug\\source\\repos\\Gui\\ENTITY\\ENTITY.csproj": {
-              "projectPath": "C:\\Users\\jesug\\source\\repos\\Gui\\ENTITY\\ENTITY.csproj"
+            "C:\\Users\\jesug\\source\\repos\\SaluDigital\\ENTITY\\ENTITY.csproj": {
+              "projectPath": "C:\\Users\\jesug\\source\\repos\\SaluDigital\\ENTITY\\ENTITY.csproj"
             }
           }
         }
