@@ -4,3 +4,9 @@ C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.csproj.AssemblyRe
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\jesug\source\repos\Gui\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\jesug\source\repos\Gui\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.csproj.AssemblyReference.cache
+C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.csproj.CoreCompileInputs.cache
+C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\jesug\source\repos\Gui\ENTITY\obj\Debug\ENTITY.pdb

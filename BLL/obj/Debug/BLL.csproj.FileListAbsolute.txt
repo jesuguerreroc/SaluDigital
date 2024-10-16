@@ -9,3 +9,14 @@ C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.csproj.CoreCompileInput
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.dll
 C:\Users\ESTUDIANTES\Desktop\guiis\Gui\BLL\obj\Debug\BLL.pdb
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\BLL.dll
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\BLL.pdb
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\DAL.dll
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\ENTITY.dll
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\DAL.pdb
+C:\Users\jesug\source\repos\Gui\BLL\bin\Debug\ENTITY.pdb
+C:\Users\jesug\source\repos\Gui\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\jesug\source\repos\Gui\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\jesug\source\repos\Gui\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\jesug\source\repos\Gui\BLL\obj\Debug\BLL.dll
+C:\Users\jesug\source\repos\Gui\BLL\obj\Debug\BLL.pdb
