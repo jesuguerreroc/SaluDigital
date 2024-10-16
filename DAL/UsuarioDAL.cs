@@ -8,7 +8,8 @@ namespace DAL
 {
     public class UsuarioDAL
     {
-        private readonly string rutaArchivo = @"C:\Users\jesug\source\repos\SaluDigital\DAL\usuarios.txt";
+        private string rutaArchivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "usuarios.txt");
+
         public List<Usuario> ObtenerUsuarios()
         {
             var usuarios = new List<Usuario>();
@@ -32,6 +33,7 @@ namespace DAL
 
             return usuarios;
         }
+ 
 
         public void GuardarUsuario(Usuario usuario)
         {
